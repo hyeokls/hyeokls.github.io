@@ -1,0 +1,75 @@
+---
+title: [HDL Bits] 0.Getting Started  
+date: 2024-07-22 20:00:00 +09:00
+categories: [Verilog, HDLbits]
+tags:
+  [
+    verilog,
+    HDLbits
+  ]
+---
+
+---
+## 1. HDL Bits 
+HDLBits는 Verilog 하드웨어 설명 언어(HDL)를 사용하여 디지털 하드웨어 설계를 <br>
+연습할 수 있는 소규모 회로 설계 연습 문제 모음입니다. <br>
+문제가 주어지면 코드를 입력할 수 있고 바로 검증을하여 맞고 틀렸는지 확인할 수 있다. <br>
+[HDL Bits]: https://hdlbits.01xz.net/wiki/Main_Page
+
+## 2. Geting Started
+
+### 2.1. Getting Started
+
+### Problem Statement
+We're going to start with a small bit of HDL to get familiar with the interface used by HDLBits.
+Here's the description of the circuit you need to build for this exercise:
+Build a circuit with no inputs and one output. 
+That output should always drive 1 (or logic high).
+
+입력이 없고 출력이 하나만 있는 회로를 구축합니다. 
+이 출력은 항상 1(또는 로직 하이)을 구동해야 합니다.
+
+```bash
+**Module Declaration**
+module top_module( output one );
+```
+
+```verilog
+module top_module( output one );
+
+// Insert your code here
+    assign one = 1'b1;
+
+endmodule
+
+```
+
+### 2.2. Output Zero 
+
+### Problem Statement
+Build a circuit with no inputs and one output that outputs a constant 0
+Now that you've worked through the previous problem, 
+let's see if you can do a simple problem without the hints.
+
+입력이 없고 상수 0을 출력하는 하나의 출력이 있는 회로를 구축합니다.
+이제 이전 문제를 풀었으니, 
+힌트 없이도 간단한 문제를 풀 수 있는지 살펴봅시다.
+
+```bash
+**Module Declaration**
+module top_module(
+    output zero
+);
+```
+
+```verilog
+module top_module(
+    output zero
+);// Module body starts after semicolon
+	assign zero = 1'b0;
+endmodule
+
+```
+
+
+
