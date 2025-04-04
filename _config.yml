@@ -58,9 +58,9 @@ webmaster_verifications:
 
 # Web Analytics Settings
 analytics:
-  google:
-    id: hyeoknix@gmail.com
-  goatcounter:
+  google: 
+    id: G-8FF520TT63
+  goatcounter: 
     id: # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
