@@ -742,7 +742,7 @@ $btn-mb: 0.5rem;
     padding-right: 1.25rem;
     width: 100%;
   }
-
+  // 사이트 타이틀
   .site-title {
     @extend %clickable-transition;
     @extend %sidebar-link-hover;
@@ -755,12 +755,12 @@ $btn-mb: 0.5rem;
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
     width: fit-content;
-    color: var(--site-title-color);
+    color: rgba(255, 255, 255, 0.99);
   }
-
+  // 서브 타이틀 수정 해야함
   .site-subtitle {
     font-size: 95%;
-    color: var(--site-subtitle-color);
+    color: color: rgba(255, 255, 255, 0.99);
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
