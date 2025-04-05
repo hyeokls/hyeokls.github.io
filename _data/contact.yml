@@ -3,25 +3,29 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: instagram
+  icon: "fab fa-instagram"
+  url: 'instargram.com/'
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 #
-# - type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
+ - type: linkedin
+   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+   url:  'https://www.linkedin.com/in/sanghyeok-lee-20b81b320/'                  # Fill with your Linkedin homepage
+
+- type: hackster
+  icon: "fab fa-hackerrank" # 또는 적절한 아이콘
+  url: "https://www.hackster.io/hyeoknix"
+  noblank: true # open link in current tab
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
