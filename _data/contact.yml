@@ -21,11 +21,11 @@
 - type: hackster
   icon: "fab fa-hackerrank" # 또는 적절한 아이콘
   url: "https://www.hackster.io/hyeoknix"
-  noblank: true # open link in current tab
+  
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+#- type: rss
+#  icon: "fas fa-rss"
+#  noblank: true # open link in current tab
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
